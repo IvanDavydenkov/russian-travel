@@ -1,0 +1,8 @@
+.intro__list-item {
+  font-weight: 700;
+  line-height: 18px;
+  font-size: 12px;
+}
+.intro__list-item:not(:first-child) {
+  margin-top: calc((90-18 * 5) / 4);
+}
