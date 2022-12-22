@@ -6,13 +6,13 @@
   max-width: 100%;
 }
 /* 136-108  margin  между хидером  и  лидом */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .head {
     padding: 0 24px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .header {
     padding: 0 16px;
   }
