@@ -4,6 +4,7 @@
   width: 100%;
   background-image: url(../../images/__background.jpg);
   background-size: cover;
+  object-fit: fill;
 }
 
 @media screen and (max-width: 1280px) {
@@ -12,13 +13,13 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 800px) {
   .cover {
     height: 480px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
   .cover {
     height: 200px;
   }
