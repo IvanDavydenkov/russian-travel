@@ -1,8 +1,19 @@
 .header {
   height: 108px;
-  padding-left: 48px;
-  padding-right: 48px;
+  padding: 0 48px;
   display: flex;
   align-items: center;
+  max-width: 100%;
 }
 /* 136-108  margin  между хидером  и  лидом */
+@media screen and (max-width: 768px) {
+  .head {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding: 0 16px;
+  }
+}
