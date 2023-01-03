@@ -1,10 +1,10 @@
 .intro__text {
   margin: 0;
   margin-top: 40px;
-  width: 690px;
+  max-width: 690px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 160%;
+  line-height: 163%;
   text-align: left;
 }
 
