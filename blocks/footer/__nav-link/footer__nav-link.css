@@ -8,3 +8,10 @@
 .footer__nav-link:visited {
   color: #fff;
 }
+@media screen and (max-width: calc((768px + 320px) / 2)) {
+  .footer__nav-link {
+    font-size: 24px;
+    line-height: 24px;
+    gap: 32px;
+  }
+}

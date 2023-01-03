@@ -6,3 +6,9 @@
 .intro__list-item:not(:first-child) {
   margin-top: calc((90 - 18 * 5) / 4);
 }
+
+@media screen and (max-width: calc((768px + 320px) / 2)) {
+  .intro__list-item {
+    margin-top: 1px;
+  }
+}

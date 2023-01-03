@@ -5,8 +5,10 @@
   gap: 18px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: calc((768px + 320px) / 2)) {
   .footer__nav-list {
     flex-direction: column;
+    margin-top: 0;
+    gap: 32px;
   }
 }

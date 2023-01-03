@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: calc((768px + 320px) / 2)) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;

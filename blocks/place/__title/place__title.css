@@ -7,18 +7,21 @@
   color: #fff;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: calc((1024px + 768px) / 2)) {
   .place__title {
     font-size: 42px;
     line-height: 46px;
-    max-width: 340px;
+  }
+  .place:first-child .place__title {
+    max-width: 250px;
   }
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: calc((768px + 320px) / 2)) {
   .place__title {
-    margin-left: 16px;
     font-size: 32px;
     line-height: 35px;
-    max-width: 288px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }

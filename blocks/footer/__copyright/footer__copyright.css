@@ -4,3 +4,9 @@
   font-size: 14px;
   color: #fff;
 }
+
+@media screen and (max-width: calc((768px + 320px) / 2)) {
+  .footer__copyright {
+    margin-top: 28px;
+  }
+}

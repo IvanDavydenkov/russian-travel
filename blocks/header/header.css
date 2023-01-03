@@ -1,19 +1,25 @@
 .header {
+  max-width: 1280px;
   height: 108px;
   padding: 0 48px;
   display: flex;
   align-items: center;
-  max-width: 100%;
 }
 /* 136-108  margin  между хидером  и  лидом */
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .head {
     padding: 0 24px;
   }
-}
+} */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: calc((1024px + 768px) / 2)) {
+  .header {
+    padding: 0 24px;
+  }
+}
+@media screen and (max-width: calc((768px + 320px) / 2)) {
   .header {
     padding: 0 16px;
+    height: 74px;
   }
 }
