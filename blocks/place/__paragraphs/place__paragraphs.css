@@ -7,8 +7,13 @@
 @media screen and (max-width: calc((1024px + 768px) / 2)) {
   .place__paragraphs {
     gap: 25px;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: calc((768px + 320px) / 2)) {
+  .place__paragraphs {
     margin-left: 16px;
     margin-right: 16px;
-    max-width: 100%;
   }
 }

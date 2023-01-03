@@ -10,8 +10,15 @@
   padding: 0 148px;
 }
 
+@media screen and (max-width: calc((1024px + 1280px) / 2)) {
+  .intro {
+    padding: 0 48px;
+  }
+}
+
 @media screen and (max-width: calc((1024px + 768px) / 2)) {
   .intro {
+    padding: 0 24px;
     margin-top: 88px;
   }
 }

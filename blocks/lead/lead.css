@@ -8,6 +8,13 @@
   max-width: 100%;
   padding: 0 148px;
 }
+@media screen and (max-width: calc((1024px + 1280px) / 2)) {
+  .lead {
+    padding: 0 48px;
+    margin-top: 18px;
+  }
+}
+
 @media screen and (max-width: calc((1024px + 768px) / 2)) {
   .lead {
     padding: 0;
