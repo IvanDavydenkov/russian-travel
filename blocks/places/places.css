@@ -6,16 +6,15 @@
   gap: 80px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: calc((1024px + 768px) / 2)) {
   .places {
     gap: 73px;
     margin-top: 88px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: calc((768px + 320px) / 2)) {
   .places {
-    gap: 50px;
     margin-top: 64px;
-    padding: 0;
+    gap: 50px;
   }
 }
