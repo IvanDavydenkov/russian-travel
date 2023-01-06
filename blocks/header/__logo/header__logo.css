@@ -2,13 +2,13 @@
   margin-right: auto;
 }
 
-@media screen and (max-width: calc((1024px + 768px) / 2)) {
+@media screen and (max-width: 896px) {
   .header__logo {
     max-width: 176px;
   }
 }
 
-@media screen and (max-width: calc((768px + 320px) / 2)) {
+@media screen and (max-width: 544px) {
   .header__logo {
     max-width: 142px;
   }

@@ -8,14 +8,14 @@
   text-align: left;
 }
 
-@media screen and (max-width: calc((1024px + 768px) / 2)) {
+@media screen and (max-width: 896px) {
   .intro__text {
     max-width: 100%;
+    line-height: 160%;
   }
 }
-
-@media screen and (max-width: calc((768px + 320px) / 2)) {
+@media screen and (max-width: 544px) {
   .intro__text {
-    max-width: 100%;
+    line-height: 161%;
   }
 }

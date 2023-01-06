@@ -3,11 +3,12 @@
 
 /* import pages */
 @import url(../blocks/pages/pages.css);
+
 /*import header 1*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-list/header__lang-list.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__lang-link/_active/header__lang-link_active_true.css);
 /*  import lead 2*/
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
@@ -47,3 +48,5 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__nav-list/footer__nav-list.css);
 @import url(../blocks/footer/__nav-link/footer__nav-link.css);
+/* import  mods */
+@import url(../blocks/active/active.css);

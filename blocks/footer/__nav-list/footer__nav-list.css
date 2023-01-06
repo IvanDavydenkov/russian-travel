@@ -1,14 +1,14 @@
 .footer__nav-list {
   list-style-type: none;
   padding: 0;
+  margin: 0;
   display: flex;
   gap: 18px;
 }
 
-@media screen and (max-width: calc((768px + 320px) / 2)) {
+@media screen and (max-width: 615px) {
   .footer__nav-list {
     flex-direction: column;
-    margin-top: 0;
     gap: 32px;
   }
 }

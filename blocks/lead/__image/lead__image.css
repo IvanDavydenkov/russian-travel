@@ -3,18 +3,13 @@
   max-width: 100%;
 }
 
-@media screen and (max-width: calc((1280px + 1024px) / 2)) {
+@media screen and (max-width: 1152px) {
   .lead__image {
     margin-top: 56px;
   }
 }
-/* @media screen and (max-width: 1024px) {
-  .lead__image {
-    margin-top: 56px;
-    max-width: minmax(928 100%);
-  }
-}  */
-@media screen and (max-width: calc((768px + 320px) / 2)) {
+
+@media screen and (max-width: 544px) {
   .lead__image {
     margin-top: 40px;
   }

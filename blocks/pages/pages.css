@@ -1,7 +1,26 @@
 .pages {
   max-width: 1280px;
   background-color: #2a2c2f;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   text-rendering: optimizeLegibility;
   margin: 0 auto;
+}
+
+div,
+section,
+article,
+img,
+footer {
+  outline: 1px solid red;
+}
+
+h1,
+h2,
+h3,
+p,
+span,
+a,
+ul,
+li {
+  outline: 1px solid red;
 }

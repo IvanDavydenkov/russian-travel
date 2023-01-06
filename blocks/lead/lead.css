@@ -1,27 +1,28 @@
 .lead {
   display: flex;
   flex-direction: column;
-  margin-top: 28px;
+  margin-top: 58px;
   align-items: center;
   text-align: center;
   color: #fff;
   max-width: 100%;
   padding: 0 148px;
 }
-@media screen and (max-width: calc((1024px + 1280px) / 2)) {
+@media screen and (max-width: 1152px) {
   .lead {
     padding: 0 48px;
     margin-top: 18px;
+    margin-top: 48px;
   }
 }
 
-@media screen and (max-width: calc((1024px + 768px) / 2)) {
+@media screen and (max-width: 896px) {
   .lead {
     padding: 0;
   }
 }
-@media screen and (max-width: calc((768px + 320px) / 2)) {
+@media screen and (max-width: 544px) {
   .lead {
-    margin-top: 32px;
+    margin-top: 48px;
   }
 }
