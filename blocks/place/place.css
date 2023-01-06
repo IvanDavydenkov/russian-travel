@@ -16,7 +16,7 @@
     grid-template-columns: 420px 436px;
   }
 }
-@media screen and (max-width: 896px) {
+@media screen and (max-width: 910px) {
   .place {
     grid-template-columns: 340px 352px;
     gap: 48px 28px;
@@ -26,6 +26,12 @@
 @media screen and (max-width: 750px) {
   .place {
     grid-template-columns: 300px 312px;
+    gap: 48px 28px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .place {
+    grid-template-columns: 290px 300px;
     gap: 48px 28px;
   }
 }
