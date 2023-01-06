@@ -4,6 +4,7 @@
   font-size: 18px;
   line-height: 22px;
   color: #fff;
+  max-width: fit-content;
 }
 .place__link:visited {
   color: #fff;

@@ -6,13 +6,13 @@
   grid-template-columns: repeat(4, auto);
   gap: 16px;
 }
-@media screen and (max-width: calc((1280px + 1024px) / 2)) {
+@media screen and (max-width: 1152px) {
   .photo-grid {
     grid-template-columns: repeat(3, auto);
     gap: 14px;
   }
 }
-@media screen and (max-width: calc((1024px + 768px) / 2)) {
+@media screen and (max-width: 896px) {
   .photo-grid {
     margin-top: 88px;
     grid-template-columns: repeat(2, auto);
@@ -21,7 +21,7 @@
   }
 }
 
-@media screen and (max-width: calc((768px + 320px) / 2)) {
+@media screen and (max-width: 544px) {
   .photo-grid {
     margin-top: 64px;
     grid-template-columns: repeat(1, auto);

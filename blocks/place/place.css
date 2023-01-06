@@ -4,22 +4,47 @@
   grid-template-columns: 460px 484px;
 }
 
-@media screen and (max-width: calc((1280px +  1080px) / 2)) {
+@media screen and (max-width: 1152px) {
   .place {
     grid-template-columns: 440px 456px;
     gap: 48px 32px;
   }
-} /* @media screen and (max-width: 1024px) { .place { gap: 48px 28px; grid-template-columns: 44% 45%; } } */
-@media screen and (max-width: calc((1024px + 768px) / 2)) {
+}
+@media screen and (max-width: 950px) {
+  .place {
+    gap: 48px 28px;
+    grid-template-columns: 420px 436px;
+  }
+}
+@media screen and (max-width: 896px) {
   .place {
     grid-template-columns: 340px 352px;
     gap: 48px 28px;
   }
 }
-@media screen and (max-width: calc((768px + 320px) / 2)) {
+
+@media screen and (max-width: 750px) {
+  .place {
+    grid-template-columns: 300px 312px;
+    gap: 48px 28px;
+  }
+}
+@media screen and (max-width: 650px) {
   .place {
     display: flex;
     flex-direction: column;
     gap: 32px;
+  }
+  .place:not(:first-child) {
+    margin-top: 50px;
+  }
+  .place:nth-child(2n) {
+    margin-top: 70px;
+  }
+  .place:nth-child(4n) {
+    margin-top: 47px;
+  }
+  .place:nth-child(5n) {
+    margin-top: 80px;
   }
 }
