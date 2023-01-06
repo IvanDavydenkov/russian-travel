@@ -38,13 +38,4 @@
   .place:not(:first-child) {
     margin-top: 50px;
   }
-  .place:nth-child(2n) {
-    margin-top: 70px;
-  }
-  .place:nth-child(4n) {
-    margin-top: 47px;
-  }
-  .place:nth-child(5n) {
-    margin-top: 80px;
-  }
 }
