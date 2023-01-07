@@ -5,6 +5,9 @@
   line-height: 18px;
   color: #fff;
 }
+.footer__nav-link:hover {
+  opacity: 0.8;
+}
 .footer__nav-link:visited {
   color: #fff;
 }
